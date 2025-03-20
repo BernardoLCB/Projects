@@ -39,12 +39,24 @@ A escolha de trabalhar com o tema de Visão Computacional foi motivada pela rele
 ## 🗂️ Fontes de Pesquisa
 Este projeto foi desenvolvido com base em diversas fontes de pesquisa, sendo principalmente fundamentado na leitura da documentação oficial da biblioteca OpenCV, além de fóruns de ajuda e vídeos tutoriais disponíveis no YouTube. Essas fontes foram essenciais para adquirir o conhecimento necessário e garantir a aplicação adequada das ferramentas e técnicas utilizadas no desenvolvimento do sistema.
 
-## 📋 Requisitos
+## 🚀 Como Executar o Projeto
+
+### Pré-requisitos
+Antes de começar, certifique-se de que você tem os seguintes itens instalados:
 
 - Python 3.7+
 - OpenCV 4.11.0
 - NumPy 2.2.3
 
+### Passo a Passo
+  
+  1. Clone esse repositório
+```bash 
+git clone https://github.com/BernardoLCB/Projects.git
+cd Projects
+```
+     
+  3. 
 
 👉 Download [Python](https://www.python.org/downloads/)
 ```bash
