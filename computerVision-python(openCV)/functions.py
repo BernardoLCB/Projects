@@ -5,7 +5,7 @@ import numpy as np
 
 '''Função responsável por aplicar filtros a uma imagem de entrada.'''
 
-def Smoothingfilters(value,img):
+def SmoothingFilters(value,img):
 
     #FILTRO DE GAUSS
     if value == 1:
