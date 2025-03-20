@@ -8,7 +8,7 @@ Um sistema em Python utilizando OpenCV para detectar formas geométricas especí
 ## 📌 Descrição
 Este projeto utiliza processamento de imagem e visão computacional para detectar padrões específicos que representam uma base de pouso. Ele pode ser usado tanto com imagens estáticas quanto com transmissões ao vivo de uma câmera.
 
-## Funcionalidades
+## 🛠️ Funcionalidades
 
 
 - **Detecção de Formas Geométricas**: Detecta quadrados, círculos e cruzes em imagens.
@@ -29,14 +29,14 @@ Este projeto utiliza processamento de imagem e visão computacional para detecta
     - Controlar a detecção das formas com base em um valor de área.
  
 
-## História do projeto
+## 📖 História do projeto
 
 O presente sistema foi desenvolvido como parte do Projeto Prático de Controle e Sistemas Embarcados, no contexto do processo de treinamento para ingressar na Equipe de Robótica Aérea (EDRA) da Universidade de Brasília (UnB). O objetivo principal é adquirir a experiência necessária e se preparar para atuar na área de Controle e Sistemas Embarcados (C&SE), buscando a vaga e a oportunidade de contribuir com inovações e soluções tecnológicas no campo.
 
 A escolha de trabalhar com o tema de Visão Computacional foi motivada pela relevância crescente dessa área na atualidade, que tem se tornado fundamental em diversas aplicações, desde a automação industrial até sistemas de segurança, veículos autônomos, e drones. Embora o projeto não integre diretamente inteligência artificial avançada, como o YOLO (You Only Look Once), ele se baseia em técnicas de processamento de imagem e análise visual, com o objetivo de detectar, interpretar e responder a informações visuais de maneira eficiente.
 
 
-## Fontes de pesquisa
+## 🗂️ Fontes de pesquisa
 Este projeto foi desenvolvido com base em diversas fontes de pesquisa, sendo principalmente fundamentado na leitura da documentação oficial da biblioteca OpenCV, além de fóruns de ajuda e vídeos tutoriais disponíveis no YouTube. Essas fontes foram essenciais para adquirir o conhecimento necessário e garantir a aplicação adequada das ferramentas e técnicas utilizadas no desenvolvimento do sistema.
 
  
