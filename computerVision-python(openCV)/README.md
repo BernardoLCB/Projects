@@ -36,10 +36,8 @@ O presente sistema foi desenvolvido como parte do Projeto Prático de Controle e
 A escolha de trabalhar com o tema de Visão Computacional foi motivada pela relevância crescente dessa área na atualidade, que tem se tornado fundamental em diversas aplicações, desde a automação industrial até sistemas de segurança, veículos autônomos, e drones. Embora o projeto não integre diretamente inteligência artificial avançada, como o YOLO (You Only Look Once), ele se baseia em técnicas de processamento de imagem e análise visual, com o objetivo de detectar, interpretar e responder a informações visuais de maneira eficiente.
 
 
-
-
-esse projeto foi orquestrado como projeto final do processo de treinning para ingressar na Equipe de Robótica Aérea (EDRA) da Universidade de Brasília (UnB) preitiando a vaga e oportunidade de ingressar na área de 
-
+## Fontes de pesquisa
+Este projeto foi desenvolvido com base em diversas fontes de pesquisa, sendo principalmente fundamentado na leitura da documentação oficial da biblioteca OpenCV, além de fóruns de ajuda e vídeos tutoriais disponíveis no YouTube. Essas fontes foram essenciais para adquirir o conhecimento necessário e garantir a aplicação adequada das ferramentas e técnicas utilizadas no desenvolvimento do sistema.
 
  
 ## 📋 Requisitos
