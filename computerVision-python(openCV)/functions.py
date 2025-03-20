@@ -3,7 +3,7 @@ import numpy as np
 
 #==================================================================================================#
 
-'''Função responsável por aplicar filtros a uma imagem de entrada.'''
+'''Função responsável por aplicar filtros de suavização à imagem de entrada.'''
 
 def SmoothingFilters(value,img):
 
