@@ -53,26 +53,18 @@ Antes de começar, certifique-se de que você tem os seguintes itens instalados:
   1. Clone esse repositório
 ```bash 
 git clone https://github.com/BernardoLCB/Projects.git
-cd Projects
+cd Projects/computerVision-python(openCV)
 ```
-     
-  3. 
-
+2. Instale as dependências
+   
 👉 Download [Python](https://www.python.org/downloads/)
 ```bash
 pip install numpy  # Para instalar o NumPy
 pip install opencv-python  # Para instalar o OpenCV
 ```
-
-
-
-## Como Baixar Este Repositório
-
-### Clonar usando Git
-Se você tem o Git instalado, pode clonar este repositório com o seguinte comando:
-
-```bash 
-git clone https://github.com/BernardoLCB/Projects.git 
+3. Execute o código
+```bash
+python main.py
 ```
 
 ## 📧 Contato
