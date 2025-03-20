@@ -2,13 +2,17 @@ import cv2
 import numpy as np
 import sys
 import os
-from functions import Smoothingfilters, findShapes, assemblingImages, morphologyOperations, figureBackgroundColor
+from functions import SmoothingFilters, findShapes, assemblingImages, morphologyOperations, figureBackgroundColor
 
 caminho_atual = os.path.dirname(__file__)
+
+print(f"caminho --> {caminho_atual}")
+
 caminho_imagem_exemplos_dados = os.path.join(caminho_atual, "inputs", "chosen")
 caminho_imagem_exemplos_criados = os.path.join(caminho_atual, "inputs", "meus_inputs")
-#print(f"caminho final até a imagem --> {caminho_imagem_exemplos_dados}")
-#print(f"caminho final até a imagem --> {caminho_imagem_exemplos_criados}")
+
+print(f"caminho final até a imagem --> {caminho_imagem_exemplos_dados}")
+print(f"caminho final até a imagem --> {caminho_imagem_exemplos_criados}")
 
 #=====================================================================#
 
@@ -100,7 +104,7 @@ while (True):
 
         # #--------------------------------------------------------------------------------------#
 
-        sorce_image = cv2.imread(caminho_imagem_exemplos_criados + "/1.jpg") # 2/0/0/56/2/2000/2000/2000
+        #sorce_image = cv2.imread(caminho_imagem_exemplos_criados + "/1.jpg") # 2/0/0/56/2/2000/2000/2000
         
         # sorce_image = cv2.imread(caminho_imagem_exemplos_criados + "/2.jpg") # 1/0/0/94/2/2000/2000/2000
         
@@ -118,7 +122,7 @@ while (True):
 
         # sorce_image = cv2.imread(caminho_imagem_exemplos_criados + "/9.jpg") # 1/3/14/23/2/2000/2000/2000
 
-        # sorce_image = cv2.imread(caminho_imagem_exemplos_criados + "/10.jpg") # 2/1/3/52/2/2000/2000/8728
+        sorce_image = cv2.imread(caminho_imagem_exemplos_criados + "/10.jpg") # 2/1/3/52/2/2000/2000/8728
         
         #sorce_image = cv2.imread(caminho_imagem_exemplos_criados + "/11.jpg") # 0/0/0/0/2/2000/2000/2000
     
@@ -150,7 +154,7 @@ while (True):
     gray_image = figureBackgroundColor(sorce_image, hsv_sorce_image, sliders6)
     
     #---------------------APLICANDO FILTROS DE SUAVIZAÇÃO-------------------------------
-    gray_image = Smoothingfilters(sliders1, gray_image)                                 
+    gray_image = SmoothingFilters(sliders1, gray_image)                                 
     
     #---------------------APLICANDO FILTROS MORFOLÓGICOS-------------------------------
     gray_image = morphologyOperations(gray_image, sliders2, sliders3)
