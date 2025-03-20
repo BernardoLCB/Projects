@@ -45,13 +45,23 @@ Este projeto foi desenvolvido com base em diversas fontes de pesquisa, sendo pri
 - OpenCV 4.11.0
 - NumPy 2.2.3
 
+
+👉 Download [Python](https://www.python.org/downloads/)
+```bash
+pip install numpy  # Para instalar o NumPy
+pip install opencv-python  # Para instalar o OpenCV
+```
+
+
+
 ## Como Baixar Este Repositório
 
 ### Clonar usando Git
 Se você tem o Git instalado, pode clonar este repositório com o seguinte comando:
 
-```bash
-git clone https://github.com/BernardoLCB/Projects.git
+```bash 
+git clone https://github.com/BernardoLCB/Projects.git 
+```
 
 ## 📧 Contato
 Se tiver alguma dúvida ou sugestão, entre em contato via email: bernardoleinig@gmail.com.
